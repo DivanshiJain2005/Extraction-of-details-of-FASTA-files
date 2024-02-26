@@ -24,6 +24,16 @@ This Python script automates a website to upload a fasta file, submit it, and do
    
 2. **automate_website(file_path, website_url):**
    - Automates the specified website to upload a file, submit it, and download the result.
+  
+### How to run?
+
+First run extract_accession_numbers.py in the terminal and a new folder named downloads will be created that will contain the FASTA files based on different accession numbers.
+Then run the automate_webite.py to get details of each FASTA sequence.
+
+### Purpose of the project:
+
+This project would help easily extract accession numbers from research papers and FASTA sequences simulataneously with ease which would help biological industries to ease out their work and automate this process.
+
 
 ### Accession Numbers:
 
@@ -32,6 +42,7 @@ Accession Numbers are unique identifiers assigned by biological databases, parti
 ### FASTA Sequence:
 
 FASTA is a text-based format for representing either nucleotide sequences (DNA or RNA) or protein sequences. Each sequence in a FASTA file begins with a single-line description, followed by lines of sequence data. The description line starts with a ">" character and typically contains information about the sequence, such as its name or source. The sequence data consists of letters representing the nucleotides (A, T, C, G for DNA; A, U, C, G for RNA) or amino acids (single-letter codes) for proteins.
+
 
 ### Use in Biology and Industries:
 
